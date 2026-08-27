@@ -22,5 +22,4 @@ router.register("orders", OrderViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
-    path("api/user/", include("user.urls", namespace="user")),
 ]
